@@ -13,10 +13,9 @@ Bootstrapping is the process for speeding up the syncing of your wallet. Syncing
 2. If your BitSend masternode path is not **_/root/.bitsend_**, change **_COIN_PATH='/root/.bitsend/'_** variable to your BitSend masternode file location or you'll get problems.
 
 3. Download and start bootstrap script
-
-```
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/c1xx/BitSend/master/bootstrap.sh)"
-```
+   ```
+   sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/c1xx/BitSend/master/bootstrap.sh)"
+   ```
 
 4. Start your BitSend masternode again
    ```
